@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simulador Cartola"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editDesarmes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade de desarmes"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editGols"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade de gols"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editNaTrave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade de finalizações na trave"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editDefendidas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade de finalizações defendidas"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editFaltasSofridas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade de faltas sofridas"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editGolsContra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade de gols contra"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editCartoesAmarelos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade de cartões amarelos"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editCartoesVermelhos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade de cartões vermelhos"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editAssistencias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade de assistências"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editFaltasCometidas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade de faltas cometidas"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editPenaltisPerdidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade de pênaltis perdidos"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular Pontuação" />
+
+        <TextView
+            android:id="@+id/textResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pontuação aparecerá aqui"
+            android:textSize="22sp"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
